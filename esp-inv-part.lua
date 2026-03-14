@@ -60,7 +60,7 @@ end)
 
 -- Commande dans le chat pour reset
 game:GetService("Players").LocalPlayer.Chatted:Connect(function(msg)
-    if msg == "/reset" then
+    if msg == "/resetscan" then
         resetTout()
     elseif msg == "/scan" then
         scannerWorkspace()
